@@ -31,6 +31,7 @@ plt.imshow(sum, cmap=cmap, vmin=-1, vmax=1)  # Using custom colormap
 
 # 绘制图像
 # plt.imshow(image_data, cmap='gray')  # 'gray'是颜色映射，适用于灰度图像
-# plt.colorbar(label='$M_z$')  # 显示颜色条
+plt.colorbar(label='$M_z$')  # 显示颜色条
 plt.axis('off')  # 不显示坐标轴
+plt.savefig('example.png', dpi=300, bbox_inches='tight')
 plt.show()
