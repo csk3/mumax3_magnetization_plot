@@ -6,3 +6,5 @@ This code is designed for generating custom magnetization plots from the magneti
 Here is result after processing the csv
 
 ok
+
+hello world
